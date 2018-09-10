@@ -81,7 +81,14 @@ const user = {
         getUserInfo({ commit, state }){
             return new Promise((resolve, reject) => {
                 // 此处可改成异步请求
-                const {introduction, name, roles, userId} = JSON.parse(getStorage('User-Info'));
+                const isJson = function(obj){
+                    if(typeof(obj) == "object" && Object.prototype.toString.call(obj).toLowerCase() == "[object object]" && !obj.length){
+                        return true;
+                    }
+                    return false;
+                }
+                let userData = getStorage('User-Info');
+                const {introduction, name, roles, userId} = isJson(userData)?userData:JSON.parse(userData);
                 commit('SET_NAME', name);
                 commit('SET_ROLES', roles);
                 commit('SET_INTRODUCTION', introduction);
