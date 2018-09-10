@@ -1,0 +1,31 @@
+// @import "./themes";
+@import "./sideBar";
+
+/*-------CSS RESET-------*/
+body {
+  height: 100%;
+  -moz-osx-font-smoothing: grayscale; // 字体抗锯齿渲染
+  -webkit-font-smoothing: antialiased;
+  text-rendering: optimizeLegibility;
+  //font-family: Helvetica Neue, Helvetica, PingFang SC, Hiragino Sans GB, Microsoft YaHei, Arial, sans-serif;
+  font-family:"Helvetica Neue",Helvetica,Arial,sans-serif;
+}
+html {
+  height: 100%;
+  box-sizing: border-box;
+}
+*,
+*:before,
+*:after {
+  box-sizing: inherit;
+}
+#app{
+  height: 100%;
+  .el-container{
+    .el-header{
+      background-color: #fff;
+    }
+  }
+}
+
+
