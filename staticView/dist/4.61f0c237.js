@@ -1,2 +1,0 @@
-(window["webpackJsonp"]=window["webpackJsonp"]||[]).push([[4],{"2r0N":function(n,a,e){},YmaQ:function(n,a,e){"use strict";var t=e("2r0N"),r=e.n(t);r.a},YvBq:function(n,a,e){"use strict";e.r(a);var t=function(){var n=this,a=n.$createElement,e=n._self._c||a;return e("div",[n._v("原生代码 非组件方式")])},r=[],i={name:"original-map"},c=i,u=(e("YmaQ"),e("KHd+")),o=Object(u["a"])(c,t,r,!1,null,"8ef98bda",null);a["default"]=o.exports}}]);
-//# sourceMappingURL=4.61f0c237.js.map
