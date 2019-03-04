@@ -2,8 +2,8 @@
     <div class="login-container">
         <div class="login-background">
             <video class="login-video" autoplay="" loop="" muted="">
-                <source src="http://video.699pic.com/videos/62/91/21/Jy22WYyDygPf1528629121.mp4" type="video/mp4">
-                <!--<source src="./../../assets/login-1.mp4">-->
+                <!--<source src="http://video.699pic.com/videos/62/91/21/Jy22WYyDygPf1528629121.mp4" type="video/mp4">-->
+                <source src="./../../assets/login-1.mp4">
             </video>
             <!--<img class="login-image" src="./../../assets/image/iron-man-bg2.jpg" alt="">-->
         </div>
@@ -76,7 +76,7 @@
             },
             doLogin(){ // 登录
                 this.$refs['loginForm'].validate((valid) => {
-                    var _this = this;
+                    let _this = this;
                     if(valid){
                         _this.isLoading = true;
                         let postData = {
