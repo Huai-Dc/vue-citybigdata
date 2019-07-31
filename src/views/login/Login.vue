@@ -69,11 +69,10 @@
                 if(this.passwordType === "password"){
                     this.passwordType = 'text';
                     this.eyeIconHighlight = 'login-icon-active'
-                } else {
+                } else
                     this.passwordType = 'password';
                     this.eyeIconHighlight = '';
-                }
-            },
+                },
             doLogin(){ // 登录
                 this.$refs['loginForm'].validate((valid) => {
                     let _this = this;
@@ -94,8 +93,8 @@
                         return false;
                     }
                 });
-            }
-        }
+            },
+        },
     }
 </script>
 <style lang="scss">

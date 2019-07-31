@@ -76,6 +76,24 @@ export const constantRouterMap = [
                 }
             }
         ]
+    },
+    {
+        path: '/ThreeJs',
+        component: Layout,
+        meta: {
+            title: 'ThreeJs',
+            icon: 'el-icon-linechart'
+        },
+        children: [
+            {
+                path: 'index',
+                name: 'echartIndex',
+                component: _import('threeJs/index'),
+                meta:{
+                    title: 'demo'
+                }
+            }
+        ]
     }
 ];
 
