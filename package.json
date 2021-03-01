@@ -18,7 +18,7 @@
     "mockjs": "^1.0.1-beta3",
     "normalize.css": "^8.0.0",
     "register-service-worker": "^1.0.0",
-    "three": "^0.103.0",
+    "three": "^0.125.0",
     "tween": "^0.9.0",
     "vue": "^2.5.16",
     "vue-amap": "^0.5.8",
