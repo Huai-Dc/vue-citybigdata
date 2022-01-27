@@ -8250,10 +8250,10 @@ thread-loader@^1.1.5:
     loader-runner "^2.3.0"
     loader-utils "^1.1.0"
 
-three@^0.103.0:
-  version "0.103.0"
-  resolved "https://registry.npm.taobao.org/three/download/three-0.103.0.tgz#63b3dbccc861caad93269618061a73dadebae71b"
-  integrity sha1-Y7PbzMhhyq2TJpYYBhpz2t665xs=
+three@^0.137.0:
+  version "0.137.0"
+  resolved "https://registry.yarnpkg.com/three/-/three-0.137.0.tgz#0ebd6ba66637a332c31f234bcdd35aeec071a6e3"
+  integrity sha512-rzSDhia6cU35UCy6y+zEEws6vSgytfHqFMSaBvUcySgzwvDO6vETyswtSNi/+aVqJw8WLMwyT1mlQQ1T/dxxOA==
 
 throttle-debounce@^1.0.1:
   version "1.1.0"
